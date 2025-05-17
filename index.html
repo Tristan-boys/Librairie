@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Librairie</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+
+            </nav>
+        </header>
+        <main>
+            <h1>Librairie</h1>
+            <form id="add">
+                <h2>Ajouter un livre :</h2>
+                <div>
+                    <label>Titre :</label>
+                    <input type="text" id="title" placeholder="Titre" required>
+                </div>
+                <div>
+                    <label>Auteur :</label>
+                    <input type="text" id="autor" placeholder="Auteur" required>
+                </div>
+                <input type="submit" value="Ajouter">
+            </form>
+            <form id="search">
+                <h2>Rechercher un livre :</h2>
+                <input type="text" id="text" placeholder="Titre">
+                <input type="submit" value="Rechercher">
+            </form>
+            <br>
+            <br>
+            <br>
+            <section id="results"></section>
+        </main>
+        <footer>
+        </footer>
+        <script src="script.js" type="module"></script>
+    </body>
+</html>
